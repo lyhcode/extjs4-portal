@@ -7,14 +7,16 @@
   }
   , "scripts": {
       "start": "node app.js"
-    , "forever": "forever -w start app.js"
   }
   , "engines": {
       "node": "0.6.x"
     , "npm": "1.1.x"
   } 
   , "dependencies": {
-      "express": "2.5.5"
-    , "jade": ">= 0.0.1"
+      "express": "latest"
+    , "jade": "latest"
+    , "coffee-script": "latest"
+    , "stylus": "latest"
+    , "nib": "latest"
   }
 }
